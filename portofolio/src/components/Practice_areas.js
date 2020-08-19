@@ -5,6 +5,7 @@ function Practice_areas() {
     <div>
       <hr className="line_break"></hr>
       <hr className="smaller_hr"></hr>
+      <div className="parallax"></div>
       <p className="Practice_areas">Practice Areas</p>
       <span className="line1"></span> <span class="dot1"></span>
       <span class="dot2"></span> <span className="line2"></span>
@@ -29,8 +30,10 @@ function Practice_areas() {
         <div>
           <hr></hr>PRIVITASATION AND DIVERSITURE{" "}
         </div>
-      </div>
-      <hr></hr>
+      </div> 
+      <div class="parallax"></div> <br/>
+      <h5>Mission</h5>
+      <hr className="mission_hr"></hr>
     </div>
   );
 }
