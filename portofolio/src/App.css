@@ -1,3 +1,5 @@
+
+
 body, html {
   height: 100%;
 }
@@ -8,6 +10,42 @@ body, html {
   text-align: center;
 }
 
+.badge {
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ padding: 24px 5px 5px 5px;
+ color: black;
+ background-color: rgb(201, 67, 67);
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.nav-email{
+  margin-left: 99px;
+  
+}
+
+.nav_phone, .nav_email{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(201, 67, 67);
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+}
+
+.profile{
+  width: 910px;
+  border: 1px solid rgb(241, 112, 112);
+  margin: auto;
+  padding: 5px;
+  box-shadow: 5px 10px 15px rgb(241, 112, 112);
+  
+
+}
+
+
 
 
 .line_break{
@@ -16,7 +54,7 @@ body, html {
 }
 
 .smaller_hr{
-  border: 4px solid salmon;
+  border: 4px solid rgb(201, 67, 67);
   width: 55px;
   margin-top: -20px;
 }
@@ -24,6 +62,14 @@ body, html {
 .Practice_areas{
   font-weight: 600;
   font-size: x-large;
+}
+
+.taxation, .investment_law{
+  padding: 5px;
+  text-align: center;
+}
+.investment_law > h6,.taxation > h6, .admin >h6, .privatasation >h6 {
+  text-align: center;
 }
 
 .dot1 {
@@ -72,8 +118,8 @@ body, html {
   height: 400px;
   width: 260px;
   margin: 10px;
-  background-color: royalblue;
-  border-bottom:3px solid salmon;
+  background-color: rgb(16, 78, 129);
+  border-bottom:3px solid rgb(201, 67, 67);
   color: white;
   font-weight: 500;
   text-align: justify;
@@ -85,8 +131,8 @@ body, html {
 }
 
 .flex-container > div:hover {
-  background-color: salmon;
-  border-bottom: 4px solid royalblue;
+  background-color: rgb(201, 67, 67);
+  border-bottom: 4px solid rgb(16, 78, 129);
 }
 
 
@@ -162,7 +208,7 @@ body, html {
 }
 
 .overflow {
-  height: 30vh;
+  height: 20vh;
 }
 
 .section{
@@ -172,6 +218,82 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.mission_hr{
+  width: 500px;
+  border-radius: 3px;
+}
+
+.mission_hr_sub{
+  width: 60px;
+  border: 2px solid rgb(201, 67, 67);
+  border-radius: 3px;
+  margin-top: -19px;
+
+}
+
+.mission_li{
+  list-style: none;
+  line-height: 30px;
+}
+
+.footer{
+  height: 500px;
+  background-color: rgb(16, 78, 129);
+  border-bottom: 5px solid rgb(201, 67, 67);
+}
+
+.footer_header{
+ padding-top: 11px;
+}
+
+.footer_icon_hr{
+  width: 400px;
+  background-color: grey;
+
+}
+
+.footer_icons{
+  display: flex;
+  list-style: none;
+  margin-left: 42%;
+}
+
+.contact_font, .terms_font, .overview_font, .rc_font{
+  font-size: small;
+}
+
+.contact_hr{
+  background-color: gray;
+}
+
+.contact_hr_sub{
+  margin-top: -13px;
+  background-color: gray;
+}
+
+.terms_hr{
+  background-color: gray;
+}
+
+.terms_hr_sub{
+  margin-top: -13px;
+  background-color: gray;
+}
+
+.overview_hr{
+  background-color: gray;
+}
+
+.overview_hr_sub{
+  margin-top: -13px;
+  background-color: gray;
+}
+
+.disclaimer_hr, .policy_hr, .conditions_hr{
+  border: 1px dotted gray;
+}
+
 
 
 
