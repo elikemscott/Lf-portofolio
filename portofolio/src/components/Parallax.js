@@ -32,7 +32,7 @@ export default function App() {
           </div>
         <section className="hero">
           <img
-            src="https://images.unsplash.com/photo-1457694716743-eb419114c894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            src="https://images.unsplash.com/photo-1489410342162-b4b300a0bb15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
             alt="test"
             className="parallax"
             style={{
