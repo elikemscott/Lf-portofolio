@@ -868,7 +868,37 @@ html {
 @media (min-width: 768px) {  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+  .taxation,
+.investment_law,
+.admin,
+.privatasation {
+  padding: 5px;
+  text-align: center;
+}
+ }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+  .taxation,
+.investment_law,
+.admin,
+.privatasation {
+  padding: 5px;
+  text-align: center;
+}
+ }
+
+/* For 1366 Resolution */  
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{
+  .taxation,
+.investment_law,
+.admin,
+.privatasation {
+  padding: 8px;
+  text-align: center;
+}
+}  
