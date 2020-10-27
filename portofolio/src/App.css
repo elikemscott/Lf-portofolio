@@ -909,7 +909,8 @@ and (max-width: 1366px)
 }
 
 .flex-container > div {
-  
+  height: 380px;
+  width: 240px;
   margin: 15px;
   
 }
