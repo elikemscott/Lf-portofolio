@@ -1,9 +1,619 @@
+/* Mobile screens */
+
+@media only screen and (max-width: 600px) {
+  
+  .mobile-carousel{
+    height: 450px;
+  }
+  .profile{
+    max-width: 370px;
+    text-align: justify;
+  }
+
+  .flex-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-container > div {
+    height: 400px;
+    width: 260px;
+    margin: 10px;
+    background-color: rgb(16, 78, 129);
+    border-bottom: 3px solid rgb(201, 67, 67);
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .flex-container > div:hover {
+    background-color: rgb(201, 67, 67);
+    border-bottom: 4px solid rgb(16, 78, 129);
+  }
+  
+  .flex-container > div > hr {
+    border: 1px solid white;
+    margin-top: 4px;
+    margin-left: -7px;
+    width: 259px;
+  }
+
+  .about_flex-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: 40px;
+  }
+  
+  .about_flex-container > div {
+    height: 450px;
+    width: 360px;
+    margin: 10px;
+    background-color: rgb(16, 78, 129);
+    border-top: 40px solid rgb(16, 78, 129) ;
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .about_flex-container > div:hover {
+    background-color: rgb(201, 67, 67);
+    border-top: 40px solid rgb(182, 39, 20);
+  }
+  
+  .about_practice_area, .about_mission, .about_benefits{
+    margin-top: -25px;
+    padding-left: 35%;
+  }
+  #about_benefits{
+    padding-left: 0%;
+  }
+
+  .mission_hr {
+    max-width: 350px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+
+  .dot1 {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .line1 {
+    border-bottom: 2px solid grey;
+    height: 5px;
+    width: 167px;
+    display: inline-block;
+    margin-left: -190px;
+    margin-bottom: 3px;
+  }
+  
+  .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .line2 {
+    border-bottom: 2px solid grey;
+    height: 5px;
+    width: 167px;
+    display: inline-block;
+    margin-right: -190px;
+    margin-bottom: 3px;
+  }
+
+  .footer {
+    height: 1110px;
+    background-color: rgb(16, 78, 129);
+    border-bottom: 5px solid rgb(201, 67, 67);
+    margin-top: 40px;
+    color: whitesmoke;
+  }
+  
+  .footer_header {
+    padding-top: 12px;
+    margin-left:35%;
+  }
+  
+  .footer_icon_hr {
+    width: 374px;
+    background-color: grey;
+    margin-left: 0%;
+  }
+  
+  .footer_icons {
+    display: flex;
+    list-style: none;
+    margin-left: 21%;
+  }
+
+  div > .row > .mobile-footer-esq{
+
+    display: block;
+    width: 30%;
+  }
+  
+  .copyright{
+    margin-left: 10%;
+  }
+  
+  .contact_font,
+  .terms_font,
+  .overview_font,
+  .rc_font {
+    font-size: small;
+    color: whitesmoke;
+  }
+  
+  .get_in_touch{
+    margin-top: 40px;
+  }
+  
+  .contact_hr {
+    background-color: gray;
+  }
+  
+  .contact_hr_sub {
+    margin-top: -15px;
+    background-color: gray;
+  }
+  
+  .terms_hr {
+    background-color: gray;
+  }
+  
+  .terms_hr_sub {
+    margin-top: -15px;
+    background-color: gray;
+  }
+  
+  .overview_hr {
+    background-color: gray;
+  }
+  
+  .overview_hr_sub {
+    margin-top: -15px;
+    background-color: gray;
+  }
+
+  .max-w{
+    background-color: rgb(16, 78, 129);
+    height: 550px;
+    max-width: 360px;
+    
+  }
+
+  .pa-col{
+    background-color: rgb(16, 78, 129) ;
+    height: 450px;
+    max-width: 360px;
+  }
+  
+  .pa-col-right{
+    background-color:rgb(16, 78, 129) ;
+    height: 550px;
+    max-width: 360px;
+    
+    
+  }
+  .pa-image{
+    width: 250px;
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 5.5rem;
+  }
+  
+  .pa-image-right{
+    width: 350px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: -12px;
+  }
+  
+  .pa-text{
+   max-width: 360px;
+   height: fit-content;
+   text-align: justify;
+
+  }
+  
+
+  .investment-mobile-text{
+    position: relative;
+    bottom: -570px;
+
+  }
+
+  .investment-mobile-image{
+    position: relative;
+    top: -500px;
+
+  }
+
+  .probate-mobile-text{
+    position: relative;
+    bottom: -580px;
+
+  }
+  .probate-mobile-image{
+    position: relative;
+    top: -300px;
+
+  }
+
+  .about_profile{
+    padding: 30px 5px;
+    text-align: justify;
+  }
+  
+  .about_profile span{
+    font-weight: 600;
+    color: rgb(4, 30, 41);
+  
+  }
 
 
-body, html {
+#firm{
+  margin-left: 0px;
+  padding: 10px;
+  background-color: brown;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.home{
+  text-align: end;
+  margin-right: 0px;
+  margin-top: -58px;
+  
+  
+}
+  
+  
+  
+  
+} 
+
+
+
+
+
+/*.............................................*/
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    height: 400px;
+    width: 260px;
+    margin: 10px;
+    background-color: rgb(16, 78, 129);
+    border-bottom: 3px solid rgb(201, 67, 67);
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .flex-container > div:hover {
+    background-color: rgb(201, 67, 67);
+    border-bottom: 4px solid rgb(16, 78, 129);
+  }
+  
+  .flex-container > div > hr {
+    border: 1px solid white;
+    margin-top: 4px;
+    margin-left: -10px;
+    width: 280px;
+  }
+
+  .about_flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: 40px;
+  }
+  
+  .about_flex-container > div {
+    height: 450px;
+    width: 360px;
+    margin: 10px;
+    background-color: rgb(16, 78, 129);
+    border-top: 40px solid rgb(16, 78, 129) ;
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .about_flex-container > div:hover {
+    background-color: rgb(201, 67, 67);
+    border-top: 40px solid rgb(182, 39, 20);
+  }
+  
+  .about_practice_area, .about_mission, .about_benefits{
+    margin-top: -25px;
+    padding-left: 35%;
+  }
+  #about_benefits{
+    padding-left: 0%;
+  }
+
+  .mission_hr {
+    width: 1200px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+
+  .dot1 {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .line1 {
+    border-bottom: 2px solid grey;
+    height: 5px;
+    width: 190px;
+    display: inline-block;
+    margin-left: -190px;
+    margin-bottom: 3px;
+  }
+  
+  .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .line2 {
+    border-bottom: 2px solid grey;
+    height: 5px;
+    width: 190px;
+    display: inline-block;
+    margin-right: -190px;
+    margin-bottom: 3px;
+  }
+
+  .taxation,
+.investment_law,
+.admin,
+.privatasation {
+  padding: 5px;
+  text-align: center;
+}
+.investment_law > h6,
+.taxation > h6,
+.admin > h6,
+.privatasation > h6 {
+  text-align: center;
+}
+
+
+.footer {
+  height: 500px;
+  background-color: rgb(16, 78, 129);
+  border-bottom: 5px solid rgb(201, 67, 67);
+  margin-top: 40px;
+  color: whitesmoke;
+}
+
+.footer_header {
+  padding-top: 12px;
+  margin-left: 46%;
+}
+
+.footer_icon_hr {
+  width: 400px;
+  background-color: grey;
+}
+
+.footer_icons {
+  display: flex;
+  list-style: none;
+  margin-left: 42%;
+}
+
+.copyright{
+  margin-left: 36%;
+}
+
+.contact_font,
+.terms_font,
+.overview_font,
+.rc_font {
+  font-size: small;
+  color: whitesmoke;
+}
+
+.get_in_touch{
+  margin-top: 40px;
+}
+
+.contact_hr {
+  background-color: gray;
+}
+
+.contact_hr_sub {
+  margin-top: -15px;
+  background-color: gray;
+}
+
+.terms_hr {
+  background-color: gray;
+}
+
+.terms_hr_sub {
+  margin-top: -15px;
+  background-color: gray;
+}
+
+.overview_hr {
+  background-color: gray;
+}
+
+.overview_hr_sub {
+  margin-top: -15px;
+  background-color: gray;
+}
+
+.max-w{
+  background-color: rgb(16, 78, 129);
+  height: 550px;
+  max-width: 650px ;
+  
+}
+
+.pa-col{
+  background-color: rgb(16, 78, 129) ;
+  height: 550px;
+  max-width: 600px;
+}
+
+.pa-col-right{
+  background-color:rgb(16, 78, 129) ;
+  height: 550px;
+  max-width: 600px;
+  margin-left: 12.375rem;
+  
+}
+.pa-image{
+  margin-left: 150px;
+  margin-top: 7.5rem;
+}
+
+.pa-image-right{
+  margin-top: 100px;
+  margin-left: -4.375rem;
+}
+
+.pa-text{
+  margin-left: 11.25rem;
+}
+.pa-text-left{
+  margin-left: 0px;
+}
+
+.about_profile{
+  padding: 30px 140px;
+}
+
+.about_profile span{
+  font-weight: 600;
+  color: rgb(4, 30, 41);
+
+}
+
+
+#firm{
+  margin-left: 30px;
+  padding: 10px;
+  background-color: brown;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.home{
+  text-align: end;
+  margin-right: 30px;
+  margin-top: -58px;
+  
+  
+}
+  
+
+} 
+
+
+
+
+
+
+
+
+/*.....................................*/
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .pa-col{
+    background-color: rgb(16, 78, 129) ;
+    height: 550px;
+    max-width: 600px;
+  }
+  
+  .pa-col-right{
+    background-color:rgb(16, 78, 129) ;
+    height: 550px;
+    max-width: 600px;
+    margin-left: 9.375rem;
+    
+  }
+  .pa-image{
+    margin-left: 150px;
+    margin-top: 7.5rem;
+  }
+  
+  .pa-image-right{
+    margin-top: 100px;
+    margin-left: -4.375rem;
+  }
+  
+  .pa-text{
+    margin-left: 11.25rem;
+  }
+  .pa-text-left{
+    margin-left: 0px;
+  }
+
+  .taxation,
+.investment_law,
+.admin,
+.privatasation {
+  padding: 5px;
+  text-align: center;
+}
+.investment_law > h6,
+.taxation > h6,
+.admin > h6,
+.privatasation > h6 {
+  text-align: center;
+}
+
+
+}
+
+/*..........................................*/
+
+body,
+html {
   height: 100%;
 }
- 
+
 
 
 .App {
@@ -11,152 +621,88 @@ body, html {
 }
 
 .badge {
- width: 60px;
- height: 60px;
- border-radius: 50%;
- padding: 24px 5px 5px 5px;
- color: black;
- background-color: rgb(201, 67, 67);
- margin-top: 10px;
- margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 24px 5px 5px 5px;
+  color: black;
+  background-color: rgb(201, 67, 67);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav {
+  margin: auto;
+
+  height: 45px;
 }
 
-.nav-email{
-  margin-left: 99px;
-  
+.nav > ul {
+  margin-top: -41px;
 }
 
-.nav_phone, .nav_email{
+.nav_color {
+  background-color: rgb(38, 118, 184);
+}
+
+.nav_phone,
+.nav_email {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   background-color: rgb(201, 67, 67);
   padding: 5px 5px 5px 5px;
-  margin-top: 10px;
+  margin: auto;
 }
 
-.profile{
+.profile {
   width: 910px;
-  border: 1px solid rgb(241, 112, 112);
   margin: auto;
   padding: 5px;
-  box-shadow: 5px 10px 15px rgb(241, 112, 112);
-  
-
+  margin-top: 40px;
 }
 
-
-
-
-.line_break{
+.line_break {
   border: 2px solid blue;
   width: 400px;
 }
 
-.smaller_hr{
+.smaller_hr {
   border: 4px solid rgb(201, 67, 67);
   width: 55px;
   margin-top: -20px;
 }
 
-.Practice_areas{
-  font-weight: 600;
+.Practice_areas {
+  margin-top: -110px;
+
   font-size: x-large;
 }
 
-.taxation, .investment_law, .admin, .privatasation{
+.taxation,
+.investment_law,
+.admin,
+.privatasation {
   padding: 5px;
   text-align: center;
 }
-.investment_law > h6,.taxation > h6, .admin >h6, .privatasation >h6 {
+.investment_law > h6,
+.taxation > h6,
+.admin > h6,
+.privatasation > h6 {
   text-align: center;
 }
 
-.dot1 {
-  height: 10px;
-  width: 10px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.line1{
-  border-bottom: 2px solid grey;
-  height: 5px;
-  width: 190px;
-  display: inline-block;
-  margin-left: -190px;
-  margin-bottom: 3px;
-  
-}
-
-.dot2 {
-  height: 10px;
-  width: 10px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.line2{
-  border-bottom: 2px solid grey;
-  height: 5px;
-  width: 190px;
-  display: inline-block;
-  margin-right: -190px;
-  margin-bottom: 3px;
-  
-}
-
-.flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-container > div {
-  height: 400px;
-  width: 260px;
-  margin: 10px;
-  background-color: rgb(16, 78, 129);
-  border-bottom:3px solid rgb(201, 67, 67);
-  color: white;
-  font-weight: 500;
-  text-align: justify;
-}
-
-.flex-container >.taxation{
-  height: 420px;
-  margin-top: 30px;
-}
-
-.flex-container > div:hover {
-  background-color: rgb(201, 67, 67);
-  border-bottom: 4px solid rgb(16, 78, 129);
-}
 
 
 
 
-
-.flex-container > div > hr{
-  border: 1px solid white;
-  margin-top: 4px;
-}
-
-.mission_hr{
-  width: 1200px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-
-}
 
 .parallax {
   /* The image used */
   background-image: url(./Images/injury-law-firm.jpg);
 
   /* Full height */
-  height: 100%; 
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -211,87 +757,45 @@ body, html {
   height: 20vh;
 }
 
-.section{
-  background-image: url('https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+.section {
+  background-image: url("https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.mission_hr{
+.mission {
+  margin-top: 40px;
+}
+.mission_hr {
   width: 500px;
   border-radius: 3px;
 }
 
-.mission_hr_sub{
+.mission_hr_sub {
   width: 60px;
   border: 2px solid rgb(201, 67, 67);
   border-radius: 3px;
   margin-top: -19px;
-
 }
 
-.mission_li{
+.mission_li {
   list-style: none;
   line-height: 30px;
 }
 
-.footer{
-  height: 500px;
-  background-color: rgb(16, 78, 129);
-  border-bottom: 5px solid rgb(201, 67, 67);
+#practice_areas{
+  margin-left: 30px;
+  padding: 10px;
+  background-color: brown;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.footer_header{
- padding-top: 11px;
-}
-
-.footer_icon_hr{
-  width: 400px;
-  background-color: grey;
-
-}
-
-.footer_icons{
-  display: flex;
-  list-style: none;
-  margin-left: 42%;
-}
-
-.contact_font, .terms_font, .overview_font, .rc_font{
-  font-size: small;
-}
-
-.contact_hr{
-  background-color: gray;
-}
-
-.contact_hr_sub{
-  margin-top: -13px;
-  background-color: gray;
-}
-
-.terms_hr{
-  background-color: gray;
-}
-
-.terms_hr_sub{
-  margin-top: -13px;
-  background-color: gray;
-}
-
-.overview_hr{
-  background-color: gray;
-}
-
-.overview_hr_sub{
-  margin-top: -13px;
-  background-color: gray;
-}
-
-.disclaimer_hr, .policy_hr, .conditions_hr{
-  border: 1px dotted gray;
+.pr_hr{
+  border: 3px solid whitesmoke;
 }
 
 
@@ -300,3 +804,71 @@ body, html {
 
 
 
+.about_trust{
+  min-height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1520004745082-400d0949f387?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center center;
+  height: 250px;
+}
+
+
+
+.testimonials{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 49%;
+}
+.testimonials > h4 {
+  margin-left: -48px;
+}
+
+.testimonial_name{
+  text-align: right;
+}
+
+
+
+.address{
+  font-weight: 500;
+}
+
+.call_us{
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  
+  
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
