@@ -73,7 +73,7 @@ export default function App() {
       <p className="Practice_areas">Practice Areas</p>
       <span className="line1"></span> <span class="dot1"></span>
       <span class="dot2"></span> <span className="line2"></span>
-      <div class="flex-container">
+      <div class="container flex-container">
       <div className="taxation">
           <hr></hr> <h6>COOPERATE FINANCE AND SECURITIES</h6> <br /> <br />
           <p>
