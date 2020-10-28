@@ -16,7 +16,7 @@ import contact_image from '../Images/image_7.jpeg'
               and defeated or resolved adverse claims seeking billions of dollars in damages.</p>
 
                   <div className="about_trust">
-                      <h4> Trust and Leadership</h4>
+                      <h4 className="leadership"> Trust and Leadership</h4>
                       <hr/>
                   </div>
                   <div class="about_flex-container">
@@ -147,7 +147,7 @@ Respond rapidly and effectively to the needs of clients.
     
     
     <p class="card-text">For support or any questions: <br/>
-Email us at richard@mail.com <br/> <br/> Richard Chapman, ESQ USA <br/>
+Email us at info@richardchappman.com <br/> <br/> Richard Chapman, ESQ USA <br/>
 20 Commerce Dr
 Cranford, <br/> NJ 07016
 USA <br/> <br/> Call us <br/>

@@ -21,7 +21,7 @@ export default function Navbar() {
                     <span className="nav-email">
                       <i class="far fa-envelope black-text nav_email"></i>{" "}
                       &nbsp;{" "}
-                      <span className="mail">richardchapman@mail.com</span>
+                      <span className="mail">info@richardchappman.com</span>
                     </span>
                   </li>
                 </ul>

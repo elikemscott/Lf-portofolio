@@ -38,13 +38,7 @@ function Carousel() {
             </div>
             <div class="carousel-caption">
               <h3 class="h3-responsive"></h3>
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem{" "}
-              </p>
+             
             </div>
           </div>
           <div class="carousel-item">
@@ -59,11 +53,7 @@ function Carousel() {
             </div>
             <div class="carousel-caption">
               <h3 class="h3-responsive"></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eligendi non quis exercitationem culpa nesciunt nihil aut
-                nostrum explicabo reprehenderit{" "}
-              </p>
+              
             </div>
           </div>
           <div class="carousel-item">
@@ -78,12 +68,7 @@ function Carousel() {
             </div>
             <div class="carousel-caption">
               <h3 class="h3-responsive"></h3>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.{" "}
-              </p>
+             
             </div>
           </div>
         </div>

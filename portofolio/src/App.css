@@ -805,7 +805,10 @@ html {
 
 
 
-
+.leadership{
+  text-align: center;
+  color: white;
+}
 
 .about_trust{
   min-height: 100%;

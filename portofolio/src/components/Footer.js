@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../App.css'
 
 function Footer() {
@@ -31,17 +32,14 @@ function Footer() {
               {" "}
               <h6>RICHARD CHAPMAN, ESQ</h6> <br />{" "}
               <p className="rc_font">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eligendi non quis exercitationem culpa nesciunt nihil aut
-                nostrum explicabo reprehenderit optio amet ab temporibus
-                asperiores quasi cupiditate. Voluptatum ducimus voluptates
-                voluptas?{" "}
+                <q>I firmly believe in the rule of law as the foundation for all of our basic rights.</q> - Sonia Sotomayor
               </p>
-              <br /> <br />{" "}
-              <a>
-                Learn more about our Practice{" "}
-                <i class="fas fa-angle-double-right fa-xs"></i>{" "}
-              </a>
+              <br /> <br />
+              <Link  to='/Practice' >
+              Learn more about our Practice{" "}
+                <i class="fas fa-angle-double-right fa-xs"></i>
+              </Link>
+              
             </div>
             <div className="col-0 col-md-4 ">
               <h6>CONTACT DETAILS</h6>
@@ -60,7 +58,7 @@ function Footer() {
                 <br /> <br />
                 <span>
                   <i class="far fa-envelope"></i> &nbsp; Email: &nbsp;
-                  richardchapman@mail.com
+                  info@richardchappman.com
                 </span>{" "}
                 <br /> <br />
                 <span>20 Commerce Dr, Cranford, NJ 07016, USA</span>

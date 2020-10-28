@@ -1,4 +1,19 @@
-import React from 'react'
+import React from 'react';
+import emailjs from 'emailjs-com';
+import apiKeys from '../apiKeys';
+
+
+
+const onSubmit=(e)=>{
+  e.preventDefault()// Prevents default refresh by the browser
+  emailjs.sendForm('service_g361j06', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+  .then(result => {
+  alert('Message Sent, I\'ll get back to you shortly', result.text);
+  },
+  error => {
+  alert( 'An error occured, Plese try again',error.text)
+  })
+  }
 
 function Contact() {
     return (
@@ -36,15 +51,15 @@ function Contact() {
             <p>Please fill this form to get in touch</p>
 
            
-<form class="text-center border border-light p-5" action="#!">
+<form class="text-center border border-light p-5" action="#!" onSubmit = {onSubmit}>
 
     <p class="h4 mb-4">Contact us</p>
 
     
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name"/>
+    <input type="text" id="defaultContactFormName" name="name" class="form-control mb-4" placeholder="Name"/>
 
     
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail"/>
+    <input type="email" id="defaultContactFormEmail" name="email" class="form-control mb-4" placeholder="E-mail"/>
 
     
     <label>Subject</label>
@@ -58,7 +73,7 @@ function Contact() {
 
     
     <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+        <textarea class="form-control rounded-0" name="message" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
     </div>
 
    
@@ -72,7 +87,7 @@ function Contact() {
         </div>
         <div className="col-4"><h5>Connect with us:</h5>
         <p>For support or any questions: <br/>
-        Email us at richard@mail.com</p> <br/> <br/>
+        Email us at info@richardchappman.com</p> <br/> <br/>
         <p> <span className="address">Richard Chapman, ESQ USA</span> <br/> 20 Commerce Dr <br/>
          Cranford, NJ 07016 <br/> USA</p> <br/> <br/>
          <p><span className="call_us">Call us </span><br/> 4848393939393 <br/>
