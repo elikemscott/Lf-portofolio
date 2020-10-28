@@ -2,8 +2,6 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import apiKeys from '../apiKeys';
 
-
-
 const onSubmit=(e)=>{
   e.preventDefault()// Prevents default refresh by the browser
   emailjs.sendForm('service_g361j06', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
@@ -59,7 +57,7 @@ function Contact() {
     <input type="text" id="defaultContactFormName" name="name" class="form-control mb-4" placeholder="Name"/>
 
     
-    <input type="email" id="defaultContactFormEmail" name="email" class="form-control mb-4" placeholder="E-mail"/>
+    <input type="email" id="defaultContactFormEmail" name="name" class="form-control mb-4" placeholder="E-mail"/>
 
     
     <label>Subject</label>
